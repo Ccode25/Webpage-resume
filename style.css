@@ -1,0 +1,58 @@
+body {
+  background: #f0f0f0; /* Slightly lighter background */
+}
+
+.header {
+  font-family: Arial, sans-serif; /* Change fallback font */
+  font-size: 1.2rem; /* Use rem for better scalability */
+  background-color: #ccc; /* Light gray background */
+  margin: 0;
+  padding: 10px;
+  
+}
+
+body > div.header > header  {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Align items horizontally */
+  justify-content: space-between; /* Push items to the sides */
+  justify-items: ;
+}
+
+body > div.header > header > div.tag.\35  > a > img {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+
+body > div.header > header > a > img {
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  filter: invert(20%); /* Adding a slight invert effect */
+}
+
+.introduction {
+  display: block;
+  height: auto;
+  width: 900px;
+  margin: 150px auto 0; /* Centering vertically */
+  font-size: 1.5rem; /* Increase font size for better readability */
+  background-color: #eee; /* Lighter background color */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#about {
+  font-family: 'Playfair Display SC', serif;
+}
+
+.Objectives {
+  font-family: 'Lexend Exa', sans-serif;
+}
+
+a {
+  text-decoration: none; /* Apply text decoration directly to all links */
+}
